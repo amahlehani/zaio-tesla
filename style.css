@@ -19,6 +19,18 @@ p {
     padding: 6px 24px 16px 24px;
 }
 
+a {
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    color: black;
+    font-weight: 400;
+}
+
+a:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+}
+
 
 .banner-wrap {
     background-image: url(./assets/Banner.avif);
@@ -54,6 +66,7 @@ nav {
 .logo {
     height: 24px;
     width: 120px;
+    cursor: pointer;
 }
 
 main {
@@ -93,7 +106,16 @@ button {
     background-color: #191d21;
     color: white;
 }
+
+.btn-dark:hover {
+    background-color: #101214;
+}
+
 .btn-light {
     background-color: #e4e4e2;
     color: #191d21;
+}
+
+.btn-light:hover {
+    background-color: #d8d8d7;
 }
